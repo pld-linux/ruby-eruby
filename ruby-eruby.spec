@@ -6,7 +6,7 @@ Summary:	Embedded Ruby
 Summary(pl):	Osadzony Ruby
 Name:		ruby-ERuby
 Version:	1.0.5
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages
 Source0:	http://modruby.net/archive/eruby-%{version}.tar.gz
