@@ -1,7 +1,3 @@
-%define	ruby_sitearchdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
-%define	ruby_libdir		%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define tarname sqlite-ruby
 Summary:	Embedded Ruby
 Summary(pl):	Osadzony Ruby
 Name:		ruby-ERuby
@@ -11,6 +7,7 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://modruby.net/archive/eruby-%{version}.tar.gz
 # Source0-md5:	af294fe34dc6cf24228aec95167b3099
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 Requires:	ruby
 Obsoletes:	ruby-eruby
