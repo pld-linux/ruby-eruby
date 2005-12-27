@@ -2,14 +2,14 @@ Summary:	Embedded Ruby
 Summary(pl):	Osadzony Ruby
 Name:		ruby-ERuby
 Version:	1.0.5
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages
 Source0:	http://modruby.net/archive/eruby-%{version}.tar.gz
 # Source0-md5:	af294fe34dc6cf24228aec95167b3099
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
-Requires:	ruby
+BuildRequires:	ruby-modules
+Requires:	ruby-modules
 Obsoletes:	ruby-eruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
