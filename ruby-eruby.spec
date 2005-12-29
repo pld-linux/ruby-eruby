@@ -7,9 +7,9 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://modruby.net/archive/eruby-%{version}.tar.gz
 # Source0-md5:	af294fe34dc6cf24228aec95167b3099
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 Obsoletes:	ruby-eruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
