@@ -1,5 +1,5 @@
 Summary:	Embedded Ruby
-Summary(pl):	Osadzony Ruby
+Summary(pl.UTF-8):   Osadzony Ruby
 Name:		ruby-ERuby
 Version:	1.0.5
 Release:	4
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 eRuby is a language to embed Ruby codes into text files. For example,
 you can embed Ruby codes into HTML files.
 
-%description -l pl
-eRuby to jêzyk do osadzania kodu w jêzyku Ruby w plikach tekstowych.
-Mo¿na na przyk³ad osadziæ kod w Rubym w plikach HTML.
+%description -l pl.UTF-8
+eRuby to jÄ™zyk do osadzania kodu w jÄ™zyku Ruby w plikach tekstowych.
+MoÅ¼na na przykÅ‚ad osadziÄ‡ kod w Rubym w plikach HTML.
 
 %prep
 %setup -q -n eruby-%{version}
