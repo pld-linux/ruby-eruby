@@ -1,5 +1,5 @@
 Summary:	Embedded Ruby
-Summary(pl.UTF-8):   Osadzony Ruby
+Summary(pl.UTF-8):	Osadzony Ruby
 Name:		ruby-ERuby
 Version:	1.0.5
 Release:	4
