@@ -38,7 +38,7 @@ install -d $RPM_BUILD_ROOT{%{ruby_sitearchdir},%{_bindir},%{ruby_ridir}}
 install eruby.so $RPM_BUILD_ROOT%{ruby_sitearchdir}
 install eruby $RPM_BUILD_ROOT%{_bindir}
 
-cp -a ri/ri/* $RPM_BUILD_ROOT%{ruby_ridir}
+cp -a ri/* $RPM_BUILD_ROOT%{ruby_ridir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
