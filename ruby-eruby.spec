@@ -1,16 +1,17 @@
+%define pkgname eruby
 Summary:	Embedded Ruby
 Summary(pl.UTF-8):	Osadzony Ruby
-Name:		ruby-ERuby
+Name:		ruby-%{pkgname}
 Version:	1.0.5
 Release:	4
 License:	GPL
 Group:		Development/Languages
-Source0:	http://modruby.net/archive/eruby-%{version}.tar.gz
+Source0:	http://modruby.net/archive/%{pkgname}-%{version}.tar.gz
 # Source0-md5:	af294fe34dc6cf24228aec95167b3099
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
 %{?ruby_mod_ver_requires_eq}
-Obsoletes:	ruby-eruby
+Obsoletes:	ruby-ERuby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
